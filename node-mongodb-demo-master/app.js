@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.locals.moment = require('moment')
 app.listen(port)
 
-console.log('node start on port' + port)
+console.log('node start on port' + port )
 
 // index page
 app.get('/', function(req, res) {
